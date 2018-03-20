@@ -5,10 +5,97 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Bootstrap Exercise</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/bootstrap.css">
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    
+      <section class="container-fluid">
+          <div class="info-row row">
+            <span class="phone-email col-md-6 text-white">
+                    <img class="envelope-pic" src="./images/envelope.png" alt="mail to">
+                    <a class="email-to footer-text-style" href="mailto:info@hellohelp.com">INFO@hellohelp.com<a/>
+                    <img class="phone-pic" src="./images/phoneicon.png" alt="no phone"/>
+                    <p class="call-now footer-text-style">+440 875369208</p>
+            </span>
+          </div>  
+          <div class="home-row row">
+            <div class="home-nav col-md-8 text-white">
+            <ul class="nav nav-pills justify-content-center">
+            <li class="nav-item">
+                <a class="nav-link active" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+                    <a class="nav-link" href="#">About Us</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Services</a>
+                <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Service 1</a>
+                <a class="dropdown-item" href="#">Service 2</a>
+                <a class="dropdown-item" href="#">Service 3</a>
+                <a class="dropdown-item" href="#">Service 4</a>
+                <!-- <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Separated link</a>
+                </div> -->
+            </li>
+            <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Products</a>
+                    <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">Product 1</a>
+                    <a class="dropdown-item" href="#">Product 2</a>
+                    <a class="dropdown-item" href="#">Product 3</a>
+                    <a class="dropdown-item" href="#">Product 4</a>
+                    <!-- <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Separated link</a>
+                    </div> -->
+                </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Gallery</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link disabled" href="#">Contact</a>
+            </li>
+        </ul>
+        </div>
+        </div>
+        <section class="sale row text-white">
+            <div class="sale-box col-md-6"
+                <h3 class="sale_pct">35% Sale</h3>
+                <h1 class="banner-text col-8">YOU ENTER SUMMER WITH<br>
+                REFRESHING RATES</h1>
+            </div>
+            <div class="three-boxes col-md-6">
+                    <div class="card weather-card">
+                        <div class="card-body">
+                            This is some text within a card body.
+                        </div>
+                    </div>
+                    <div class="card gallery-card">
+                            <!-- <div class="card-body">
+                                This is the body for the gallery.
+                            </div> -->
+                            <h4 class="card-title">Gallery</h4>
+                    </div>
+                    <div class="card tour-card">
+                            <!-- <div class="card-body">
+                                This is the body for the virtual tour.
+                            </div> -->
+                            <h4 class="card-title">Virtual Tour</h4>
+                    </div>
+            </div>
+        </section>
+        <section class="booking-bar row">
+            <div class="book-form col-sm-1">
+                    <form class="form-inline">
+                            <label class="my-1 mr-2" for="inlineFormCustomSelectPref">Preference</label>
+                            <select class="custom-select my-1 mr-sm-2" id="inlineFormCustomSelectPref">
+                              <option selected>Choose...</option>
+                              <option value="1">One</option>
+                              <option value="2">Two</option>
+                              <option value="3">Three</option>
+                            </select>
+                    </form>
+            </div>
+    </section>
 </body>
 </html>

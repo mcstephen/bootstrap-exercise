@@ -1,0 +1,25 @@
+body{
+     background-color: black;
+     margin: 0px;
+     padding: 0px;
+     width: 1920px;
+}
+.text-white{
+    color: white;
+}
+.weather-card{
+    background-color: #ffc107;
+    height: 200px;
+    width: 163px;
+}
+.gallery-card{
+    background-color: gray;
+    height: 126px;
+    width: 163px;
+}
+.tour-card{
+    background-color: white;
+    height: 126px;
+    width: 163px;
+    color: gray;
+}
