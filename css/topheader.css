@@ -1,0 +1,43 @@
+body{
+    background-color: #313131;
+  }
+  .social-icons i{
+      color: rgb(226, 214, 214);
+  }
+  .hdr-text-color{
+      color: rgb(226, 214, 214);
+  }
+  .social-icons{
+    border: 1px solid rgb(226, 214, 214);
+    /* margin: 0px 0px 97px 10px; */
+    padding: 5px 9px 8px 13px;
+    border-radius: 2px;
+  }
+  .social-icons li{
+      display: inline-block;
+  }
+.logo-pic{
+    margin: 0;
+    padding: 0;
+    }
+.main-row{
+    color: #919191;
+}
+.phone-email li{
+    padding-right: 15px;
+  }
+  .btn-color {
+    background-color: #313131;
+    border: 1px solid rgb(226, 214, 214);
+    color: rgb(226, 214, 214);
+    border-radius: 2px;
+    /* padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer; */
+}
+
+    
