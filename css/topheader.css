@@ -1,7 +1,10 @@
 body{
-    background-color: #313131;
+    /* background-color: #313131; */
   }
   .main-body-bg{
+    /* background-color: #363636; */
+  }
+  .main-row{
     background-color: #313131;
   }
   .social-icons i{

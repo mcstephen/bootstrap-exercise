@@ -1,6 +1,9 @@
 body{
     /* background-color: darkgray; */
 }
+.sales-body-bg{
+    background-color: #363636;
+  }
 .sales-text{
     padding-top: 100px;
   }
