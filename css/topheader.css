@@ -1,6 +1,9 @@
 body{
     background-color: #313131;
   }
+  .main-body-bg{
+    background-color: #313131;
+  }
   .social-icons i{
       color: rgb(226, 214, 214);
   }
@@ -13,9 +16,27 @@ body{
     padding: 5px 9px 8px 13px;
     border-radius: 2px;
   }
+  .adr-pic{
+      width: 20px;
+      height: 20px;
+  }
   .social-icons li{
       display: inline-block;
   }
+  .li-block-disp li{
+    display: inline;
+    padding-right: 5rem;
+}
+table tr:nth-child(1){
+    border: 0rem;
+}
+.li-block-disp li:last-child{
+float: right;
+}
+.btm-copy{
+    background-color: #3f3f3f;
+
+}
 .logo-pic{
     margin: 0;
     padding: 0;
@@ -39,5 +60,8 @@ body{
     margin: 4px 2px;
     cursor: pointer; */
 }
+.gold-stuff{
+    color: #c0a878;
+  }
 
     
