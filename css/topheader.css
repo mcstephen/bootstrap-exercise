@@ -1,11 +1,11 @@
 body{
     /* background-color: #313131; */
   }
-  .main-body-bg{
-    /* background-color: #363636; */
+  .top-row-bg{
+    background-color: #363636;
   }
   .main-row{
-    background-color: #313131;
+    /* background-color: #313131; */
   }
   .social-icons i{
       color: rgb(226, 214, 214);
@@ -38,7 +38,6 @@ float: right;
 }
 .btm-copy{
     background-color: #3f3f3f;
-
 }
 .logo-pic{
     margin: 0;
@@ -49,22 +48,18 @@ float: right;
 }
 .phone-email li{
     padding-right: 15px;
+    color: #919191;
   }
   .btn-color {
     background-color: #313131;
     border: 1px solid rgb(226, 214, 214);
     color: rgb(226, 214, 214);
     border-radius: 2px;
-    /* padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer; */
 }
 .gold-stuff{
     color: #c0a878;
   }
-
+li a{
+    color: rgb(226, 214, 214);
+}
     

@@ -43,3 +43,12 @@ body{
       border-width: 10px;
     margin: 10px 0px 0px 10px;
   }
+  .black-sea-pic{
+    font-family: "CinzelDecorative";
+  }
+  .read-more{
+    color: black;
+  }
+  .read-more-white{
+    color: white;
+  }

@@ -1,391 +1,380 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Bootstrap Exercise</title>
-     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-     <link rel="stylesheet" href="css/topheader.css">
-     <link rel="stylesheet" href="css/style.css">
-     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/solid.css" integrity="sha384-v2Tw72dyUXeU3y4aM2Y0tBJQkGfplr39mxZqlTBDUZAb9BGoC40+rdFCG0m10lXk" crossorigin="anonymous">
-     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/fontawesome.css" integrity="sha384-q3jl8XQu1OpdLgGFvNRnPdj5VIlCvgsDQTQB6owSOHWlAurxul7f+JpUOVdAiJ5P" crossorigin="anonymous">     <link rel="stylesheet" href="css/style.css">
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/topheader.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mediaq.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/solid.css" integrity="sha384-v2Tw72dyUXeU3y4aM2Y0tBJQkGfplr39mxZqlTBDUZAb9BGoC40+rdFCG0m10lXk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/fontawesome.css" integrity="sha384-q3jl8XQu1OpdLgGFvNRnPdj5VIlCvgsDQTQB6owSOHWlAurxul7f+JpUOVdAiJ5P" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
 </head>
+
 <body>
-        <!-- <footer class="footer">
-                  <div class="d-flex justify-content-end bg-dark text-light mx-auto">
-                                       <span class="phone-email text-white">
-                                          <img class="envelope-pic" src="./images/envelope.png" alt="mail to">
-                                          <a class="email-to footer-text-style  text-light px-3 mt-3" href="mailto:info@hellohelp.com">INFO@hellohelp.com<a/>
-                  </span>
-                    <div class="btn-group dropright">
-                      <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Log In
-                </button>
-                      <div class="dropdown-menu">
-                      </div>
-                    </div>
-                    <div class="btn-group dropright">
-                      <button type="button" class="btn btn-secondary dropdown-toggle ml-2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Language
-                </button>
-                      <div class="dropdown-menu">
-                      </div>
-                    </div>
-                    <div class="social-icons">
-                            <a href="#"><i class="fa fa-facebook text-light"></i></a>
-                            <a href="#"><i class="fa fa-twitter text-light"></i></a>
-                            <a href="#"><i class="fa fa-instagram text-light"></i></a>
-                            <a href="#"><i class="fa fa-envelope text-light"></i></a>
-                    </div>
 
-                  </div>
-              </footer> -->
-              <section class="container-fluid">
+    <section class="container-fluid p-0">
 
-                    <div class="row top-row-bg">
-                        <div class="logo-pic col-md-2 img-fluid">
-                            <img class="nortsea-pic" src="./images/Logo White BG.png" alt="no nortsea"/>
-                        </div> 
-                          <div class="col-md-7  ml-auto d-flex">
-                          <div class="hdr-group1 pt-3">
-                              <ul class="nav phone-email list-unstyled">
-                                  <li><img class="envelope-pic px-auto" src="./images/hdr-email.svg" alt="mail to"></li>
-                                  <li><a class="email-to pr-5 hdr-text-color" href="mailto:info@hellohelp.com">INFO@hellohelp.com<a/></li>
+        <div class="row top-row-bg">
+            <div class="logo-pic col-md-2 img-fluid w-100 h-auto">
+                <img class="nortsea-pic" src="./images/Logo White BG.png" alt="no nortsea" />
+            </div>
+            <div class="col-md-7  ml-auto d-flex">
+                <div class="hdr-group1 pt-3">
+                    <ul class="nav phone-email list-unstyled">
+                        <li><img class="envelope-pic px-auto" src="./images/hdr-email.svg" alt="mail to"></li>
+                        <li><a class="email-to pr-5 hdr-text-color" href="mailto:info@hellohelp.com">INFO@hellohelp.com<a/></li>
                                   <li><img class="phone-pic" src="./images/hdr-phone.svg" alt="no phone"/></li>
                                   <li><a class="call-now">+440 875369208</a></li>
-                                  <li> <button type="button" class="btn btn-color dropdown-toggle trans-bg border" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                      Login
-                                  </button></li>
-                                  <li> <button type="button" class="btn btn-color dropdown-toggle trans-bg border" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                      Language
-                              </button></li>
-                          <li class="list-inline">
+                        <li>
+                            <button type="button" class="btn btn-color dropdown-toggle trans-bg border" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Login
+                            </button>
+                        </li>
+                        <li>
+                            <button type="button" class="btn btn-color dropdown-toggle trans-bg border" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Language
+                            </button>
+                        </li>
+                        <li class="list-inline">
                             <ul class="social-icons list-unstyled">
-                              <li><a href="#"><i class="fa fa-facebook active"></i></a></li>
-                              <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                              <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                              <li><a href="#"><i class="fa fa-envelope"></i></a></li>
+                                <li><a href="#"><i class="fa fa-facebook active"></i></a></li>
+                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                                <li><a href="#"><i class="fa fa-envelope"></i></a></li>
                             </ul>
-                          </li>
-                              </ul>
-                          </div>
-              
-                      </div>
-                  </div>
-              <!-- main index begins below -->
-    <section>
-        <div class="container-fluid p-0">
-            <div class="top-half bg-dark text-light bg-dark d-flex">
-            <div class="row mb-5 mx-auto w-75">
-              <div class="col-md-6">
-                
-              <div class="sales-text pt-5">
-                <h3>35% Sale</h3>
-                <h1>You Enter Summer With</h1>
-                <h1>Refreshing Rates</h1>
-              </div>
-                <div class="explore-it">
-                  <button type="button" class="btn btn-light rounded-0 ml-1" type="button" >EXPLORE IT</button>
+                        </li>
+                    </ul>
                 </div>
-                
-              </div>
-              <div class="col-md-2"></div>
-           <div class="three-boxes col-md-2 text-white text-center mx-auto">
-            <div class="card weather-card">
-              <div class="card-body">
-                <p class="sunny">&#9788;</p>
-                <span class="temp-text"><p class="temp-text"><p>26&deg;/19&deg; <br> Sunny</p></span>
-              </div>
-            </div>
-              <div class="card gallery-card">
-                <!-- <div class="card-body">
-            This is the body for the gallery.
-            </div> -->
-                <h4 class="card-title">Gallery</h4>
-          <!--       <img src="https://png.icons8.com/metro/50/000000/picture.png"> -->
-                <img class="gallery-icon mx-auto" src="https://png.icons8.com/material/50/000000/stack-of-photos.png">
-              </div>
-            <div class="card tour-card">
-            <h4 class="card-title">360&deg; Virtual Tour</h4>
-            <img class="tour-icon mx-auto" src="./images/virtualtour.svg" alt="no pic">
-          </div>
-          </div>
-            </div>
-          </div>
-        </div>
 
-      </section>
-          <!--  bottom section starts here    -->
-      <section>
-        <div class="container-fluid">
-            <div class="bg-light p-2">
-                <div class="row mx-auto w-75 pt-5">
-                    <!--   <div class="col-md-2 border bg-info">blank</div> -->
-                      <div class="col-md">
-                        <div class="card border-0">
-                          <div class="card-body text-center">
-                            <h5 class="card-title">Amazing Travel</h5>
-                                            <img class="btm-pics" src="./images/amazing travel.svg" alt="no suitcase"/>
-                    
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque</p>
-                            <a href="#" class="amazing-read">Read More &#9658;</a>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-md">
-                        <div class="card border-0">
-                          <div class="card-body text-center active">
-                            <h5 class="card-title">Discover</h5>
-                                                    <img class="btm-pics" src="./images/discover.svg" alt="no discover"/>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque</p>
-                            <a href="#" class="discover-read">Read More &#9658;</a>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-md">
-                        <div class="card border-0">
-                          <div class="card-body text-center">
-                            <h5 class="card-title">Book Your Trip</h5>
-                                                            <img class="btm-pics" src="./images/bookyourtrip.svg" alt="no globe"/>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque</p>
-                            <a href="#" class="book-trip-read">Read More &#x25BA;</a>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-md">
-                        <div class="card border-0">
-                          <div class="card-body text-center">
-                            <h5 class="card-title">Nice Support</h5>
-                                                          <img class="btm-pics" src="./images/support.svg" alt="no support"/>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque</p>
-                            <a href="#" class="support-read">Read More &#9658;</a>
-                          </div>
-                        </div>
-                      </div> 
-                      </div> <!-- end top of bottom section row  -->
-          
             </div>
         </div>
+        <!-- main index begins below -->
+        <section>
+            <div class="container-fluid p-0">
+                <div class="top-half text-light bg-dark d-flex p-0">
+                    <div class="row mb-5 mx-auto w-75">
+                        <div class="col-md-6">
 
-      </section>
-<section>
-    <div class="container-fluid">
-
-      </div>
-            <!-- end top of bottom section  -->
-              <div class="col-md-8 text-center mx-auto" <div>
-                <h5 class="display-4">About Hotel</h5>
-              </div>
-              <!-- <div class="col-md-2 border"></div> -->
-              <!-- <div class="col-md-2 border"></div> -->
-              <div class="col-md-8 text-center mx-auto mt-3"div>
-                <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris</p>
-              </div>
-              <!-- begin hotel features  -->
-  <section>
-            <div class="row mx-auto w-75">
-                  <div class="hotel-feature col-md text-center">
-                          <h5 class="feature-title">Restaurant & Banquets</h5>
-                          <p class="feature-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed</p>
-                          <a href="#" class="amazing-read">Read More &#9658;</a>
-                  </div>
-                      <div class="hotel-feature col-md">
-                        <div class="text-center">
-                          <h5 class="feature-title">Rooms</h5>
-                          <p class="feature-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed</p>
-                          <a href="#" class="amazing-read">Read More &#9658;</a>
-                        </div>
-                      </div>
-                      <div class="hotel-feature col-md">
-                        <div class="text-center">
-                          <h5 class="feature-title">Bar</h5>
-                          <p class="feature-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed</p>
-                          <a href="#" class="amazing-read">Read More &#9658;</a>
-                        </div>
-                      </div>
-            </div>
-
-                  <!-- </div>       -->
-                  <div class="row mx-auto w-75">
-                    <div class="hotel-feature col-md mr-auto">
-                      <div class="border">
-                        <div class="text-center">
-                          <h5 class="feature-title">GYM</h5>
-                          <p class="feature-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed</p>
-                          <a href="#" class="amazing-read">Read More &#9658;</a>
-                        </div>
-                      </div>
-                  </div>
-                      <div class="hotel-feature col-md mr-auto">
-                        <div class="text-center">
-                          <h5 class="feature-title">SPA</h5>
-                          <p class="feature-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed</p>
-                          <a href="#" class="amazing-read">Read More &#9658;</a>
-                        </div>
-                      </div>
-                      <div class="hotel-feature col-md mr-auto">
-                        <div class="text-center">
-                          <h5 class="feature-title">PARKING</h5>
-                          <p class="feature-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed</p>
-                          <a href="#" class="amazing-read">Read More &#9658;</a>
-                        </div>
-                      </div>
-                  <!-- end of hotel feature boxes  -->
-                  
-          </div>
-    </section>
-          <div class="mx-auto w-75">
-              <div class="card-group border mt-5">
-                  <h5> NEWS</h5>
-                  <div class="row">
-                
-                    <div class="card w-100 mb-2 border"> <!-- #1 news row  -->
-                      <div class="row">
-                        <div class="col-md-3">
-                          <img class="m-1 w-100 img-fluid" style="max-height: 200px;" src="http://via.placeholder.com/327x137" alt="no image">
-                        </div>
-                        <div class="card-body text-left col-md-4 border">
-                          <h5 class="card-title">Lorem ipsum dolor sit amet</h5>
-                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt </p>
-                          <a href="#" class="amazing-read">Read More &#9658;</a>
-                        </div>
-                
-                        <div class="card-body text-left col-md-4 border">
-                          <h5 class="card-title">Announced Lorem ipsum dolor sit amet</h5>
-                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt </p>
-                          <a href="#" class="amazing-read">Read More &#9658;</a>
-                        </div>
-                      </div>
-    
-    
-                    <!--.row-->
-                  </div>  <!-- #1 news row -->
-              
-                  <div class="card w-100 mb-2 border"> <!-- #2 news row  -->
-                    <div class="row">
-                      <div class="col-md-3">
-                        <img class="m-1 w-100 img-fluid" style="max-height: 200px;" src="http://via.placeholder.com/327x137" alt="no image">
-                      </div>
-                      <div class="card-body text-left col-md-4">
-                        <h5 class="card-title">Lorem ipsum dolor sit amet</h5>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt </p>
-                        <a href="#" class="amazing-read">Read More &#9658;</a>
-                      </div>
-                      <div class="card-body text-left col-md-4 border">
-                        <h5 class="card-title">Announced Lorem ipsum dolor sit amet</h5>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt </p>
-                        <a href="#" class="amazing-read">Read More &#9658;</a>
-                      </div>
-                    </div>
-                    <!--.row-->
-                  </div> <!-- #2 news row  --> 
-              
-                  <div class="card w-100 mb-2 border">
-                    <div class="row">  <!-- #3 news row  -->
-                      <div class="col-md-3">
-                        <img class="m-1 w-100 img-fluid" style="max-height: 200px;" src="http://via.placeholder.com/327x137" alt="no image">
-                      </div>
-                      <div class="card-body text-left col-md-4">
-                        <h5 class="card-title">Lorem ipsum dolor sit amet</h5>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt </p>
-                        <a href="#" class="amazing-read">Read More &#9658;</a>
-                      </div>
-                      <div class="card-body text-left col-md-4 border wd-2">
-                        <h5 class="card-title">Products</h5>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt </p>
-                        <a href="#" class="amazing-read">Read More &#9658;</a>
-                      </div>
-                </div> <!-- #3 news row  -->  
-              
-                  </div>
-              
-                </div>
-              </div>
-          </div>
-
-          
-            
-
-              <footer class="main-footer mx-auto bg-dark">
-                    <div class="nort-about row w-75 mx-auto">
-                      <div class="col-md">
-                          <div class="border-0 hdr-text-color main-body-bg text-left mt-5">
-                                <h5 class="display-5">NortSea About</h5>
-                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                                  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim 
-                                  ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip 
-                                  ex ea commodo</p>
-                                <a href="#" class="amazing-read">Read More &#9658;</a>
+                            <div class="sales-text pt-5">
+                                <h3>35% Sale</h3>
+                                <h1>You Enter Summer With</h1>
+                                <h1>Refreshing Rates</h1>
                             </div>
-                      </div>
-                      <div class="col-md">
-                          <div class="border-0 hdr-text-color main-body-bg text-left mt-5">
-                                <h5 class="display-5">NortSea Hotel</h5>
-                                <ul class="list-unstyled">
-                                    <li><a href="#aboutus.html">About Us</a></li>
-                                    <li><a href="#services.html">Services</a> </li>
-                                    <li><a href="#contact.html">Contact</a> </li>
-                                  </ul>
-                          </div>
+                            <div class="explore-it">
+                                <button type="button" class="btn btn-light rounded-0 ml-1" type="button">EXPLORE IT</button>
+                            </div>
+
+                        </div>
+                        <div class="col-md-2"></div>
+                        <div class="three-boxes col-md-2 text-white text-center mx-auto pt-5">
+                            <div class="card weather-card">
+                                <div class="card-body">
+                                    <p class="sunny">&#9788;</p>
+                                    <span class="temp-text"><p class="temp-text"><p>26&deg;/19&deg; <br> Sunny</p></span>
+                                </div>
+                            </div>
+                            <div class="card gallery-card">
+                                <h4 class="card-title">Gallery</h4>
+                                <img class="gallery-icon mx-auto" src="https://png.icons8.com/material/50/000000/stack-of-photos.png">
+                            </div>
+                            <div class="card tour-card">
+                                <h4 class="card-title">360&deg; Virtual Tour</h4>
+                                <img class="tour-icon mx-auto" src="./images/virtualtour.svg" alt="no pic">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <div class="row"> -->
+    
+                    <!-- </div> -->
+                </div>
+            </div>
+        </section>
+
+        <!--  bottom section starts here    -->
+        <section>
+            <div class="container-fluid">
+                <div class="bg-light p-2">
+                    <div class="row mx-auto w-75 pt-5">
+                        <!--   <div class="col-md-2 border bg-info">blank</div> -->
+                        <div class="col-md">
+                            <div class="card border-0">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">Amazing Travel</h5>
+                                    <img class="btm-pics" src="./images/amazing travel.svg" alt="no suitcase" />
+
+                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque</p>
+                                    <a href="#" class="read-more">Read More &#9658;</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md">
+                            <div class="card border-0">
+                                <div class="card-body text-center active">
+                                    <h5 class="card-title">Discover</h5>
+                                    <img class="btm-pics" src="./images/discover.svg" alt="no discover" />
+                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque</p>
+                                    <a href="#" class="read-more">Read More &#9658;</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md">
+                            <div class="card border-0">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">Book Your Trip</h5>
+                                    <img class="btm-pics" src="./images/bookyourtrip.svg" alt="no globe" />
+                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque</p>
+                                    <a href="#" class="read-more">Read More &#x25BA;</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md">
+                            <div class="card border-0">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">Nice Support</h5>
+                                    <img class="btm-pics" src="./images/support.svg" alt="no support" />
+                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque</p>
+                                    <a href="#" class="read-more">Read More &#9658;</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end top of bottom section row  -->
+
+                </div>
+            </div>
+
+        </section>
+        <section>
+            <div class="container-fluid">
+
+            </div>
+            <!-- end top of bottom section  -->
+            <div class="col-md-8 text-center mx-auto" <div>
+                <h5 class="display-4">About Hotel</h5>
+            </div>
+            <!-- <div class="col-md-2 border"></div> -->
+            <!-- <div class="col-md-2 border"></div> -->
+            <div class="col-md-8 text-center mx-auto mt-3" div>
+                <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris</p>
+            </div>
+            <!-- begin hotel features  -->
+            <section>
+                <div class="row mx-auto w-75">
+                    <div class="hotel-feature col-md text-center">
+                        <h5 class="feature-title">Restaurant & Banquets</h5>
+                        <p class="feature-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed</p>
+                        <a href="#" class="read-more">Read More &#9658;</a>
+                    </div>
+                    <div class="hotel-feature col-md">
+                        <div class="text-center">
+                            <h5 class="feature-title">Rooms</h5>
+                            <p class="feature-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed</p>
+                            <a href="#" class="read-more">Read More &#9658;</a>
+                        </div>
+                    </div>
+                    <div class="hotel-feature col-md">
+                        <div class="text-center">
+                            <h5 class="feature-title">Bar</h5>
+                            <p class="feature-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed</p>
+                            <a href="#" class="read-more">Read More &#9658;</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- </div>       -->
+                <div class="row mx-auto w-75">
+                    <div class="hotel-feature col-md mr-auto">
+                        <div class="border">
+                            <div class="text-center">
+                                <h5 class="feature-title">GYM</h5>
+                                <p class="feature-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed</p>
+                                <a href="#" class="read-more">Read More &#9658;</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hotel-feature col-md mr-auto">
+                        <div class="text-center">
+                            <h5 class="feature-title">SPA</h5>
+                            <p class="feature-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed</p>
+                            <a href="#" class="read-more">Read More &#9658;</a>
+                        </div>
+                    </div>
+                    <div class="hotel-feature col-md mr-auto">
+                        <div class="text-center">
+                            <h5 class="feature-title">PARKING</h5>
+                            <p class="feature-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed</p>
+                            <a href="#" class="read-more">Read More &#9658;</a>
+                        </div>
+                    </div>
+                    <!-- end of hotel feature boxes  -->
+
+                </div>
+            </section>
+            <div class="mx-auto w-75">
+                <div class="card-group border mt-5">
+                    <h5> NEWS</h5>
+                    <div class="row">
+
+                        <div class="card w-100 mb-2 border">
+                            <!-- #1 news row  -->
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img class="m-1 w-100 img-fluid" style="max-height: 200px;" src="http://via.placeholder.com/327x137" alt="no image">
+                                </div>
+                                <div class="card-body text-left col-md-4 border">
+                                    <h5 class="card-title">Lorem ipsum dolor sit amet</h5>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt </p>
+                                    <a href="#" class="read-more">Read More &#9658;</a>
+                                </div>
+
+                                <div class="card-body text-left col-md-4 border">
+                                    <h5 class="card-title">Announced Lorem ipsum dolor sit amet</h5>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt </p>
+                                    <a href="#" class="read-more">Read More &#9658;</a>
+                                </div>
+                            </div>
+
+                            <!--.row-->
+                        </div>
+                        <!-- #1 news row -->
+
+                        <div class="card w-100 mb-2 border">
+                            <!-- #2 news row  -->
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img class="m-1 w-100 img-fluid" src="http://via.placeholder.com/327x137" alt="no image">
+                                </div>
+                                <div class="card-body text-left col-md-4">
+                                    <h5 class="card-title">Lorem ipsum dolor sit amet</h5>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt </p>
+                                    <a href="#" class="read-more">Read More &#9658;</a>
+                                </div>
+                                <div class="card-body text-left col-md-4 border">
+                                    <h5 class="card-title">Announced Lorem ipsum dolor sit amet</h5>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt </p>
+                                    <a href="#" class="read-more">Read More &#9658;</a>
+                                </div>
+                            </div>
+                            <!--.row-->
+                        </div>
+                        <!-- #2 news row  -->
+
+                        <div class="card w-100 mb-2 border">
+                            <div class="row">
+                                <!-- #3 news row  -->
+                                <div class="col-md-3">
+                                    <img class="m-1 w-100 img-fluid" src="http://via.placeholder.com/327x137" alt="no image">
+                                </div>
+                                <div class="card-body text-left col-md-4">
+                                    <h5 class="card-title">Lorem ipsum dolor sit amet</h5>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt </p>
+                                    <a href="#" class="read-more">Read More &#9658;</a>
+                                </div>
+                                <div class="card-body text-left col-md-4 border wd-2">
+                                    <h5 class="card-title">Products</h5>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt </p>
+                                    <a href="#" class="read-more">Read More &#9658;</a>
+                                </div>
+                            </div>
+                            <!-- #3 news row  -->
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <footer class="main-footer mx-auto bg-dark">
+                <div class="nort-about row w-75 mx-auto">
+                    <div class="col-md">
+                        <div class="border-0 hdr-text-color main-body-bg text-left mt-5">
+                            <h5 class="display-5">NortSea About</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur 
+                              adipiscing elit, sed do eiusmod tempor incididunt ut labore 
+                              et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
+                              exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
+                            <a href="#" class="read-more-white">Read More &#9658;</a>
+                        </div>
+                    </div>
+                    <div class="col-md">
+                        <div class="btm-list border-0 hdr-text-color main-body-bg text-left mt-5">
+                            <h5 class="display-5">NortSea Hotel</h5>
+                            <ul class="list-unstyled">
+                                <li><a href="#aboutus.html">About Us</a></li>
+                                <li><a href="#services.html">Services</a> </li>
+                                <li><a href="#contact.html">Contact</a> </li>
+                            </ul>
+                        </div>
                     </div>
                     <div class="col-md">
                         <div class="border-0 hdr-text-color main-body-bg text-left mt-5">
-                              <h5 class="display-5 pb-2">Contact Us</h5>
-                              
-                              <table class="table table-sm-2">
+                            <h5 class="display-5 pb-2">Contact Us</h5>
+
+                            <table class="table table-sm-2">
                                 <tbody>
-                                  <tr>
-                                    <th scope="row"></th>
-                                    <td><img class="gold-stuff" src="./images/location.png"></td>
-                                  <td class="gold-stuff">Address</td>
-                                  <td><p>1100 Pico Blvd<br>
-                                          Santa Monica Blvd<br>
-                                          United States</p></td>
-                                  </tr>
-                                  <tr>
-                                      <th scope="row"></th>
-                                      <td><img class="gold-stuff" src="./images/phone.png"></td>
-                                    <td class="gold-stuff">Phone</td>
-                                    <td>+440 875369208</td>
+                                    <tr>
+                                        <th scope="row"></th>
+                                        <td><img class="gold-stuff" src="./images/location.png"></td>
+                                        <td class="gold-stuff">Address</td>
+                                        <td>
+                                            <p>1100 Pico Blvd
+                                                <br> Santa Monica Blvd
+                                                <br> United States</p>
+                                        </td>
                                     </tr>
-                                  <tr>
-                                    <th scope="row"></th>
-                                    <td><img class="gold-stuff" src="./images/paper-plane.png"></td>
-                                  <td  class="gold-stuff">Email</td>
-                                  <td>support@nortsea.com</td>
-                                  </tr>
-                                  <tr>
-                                      <th scope="row"></th>
-                                      <td><img class="gold-stuff" src="./images/GPS.png"></td>
-                                    <td class="gold-stuff">GPS</td>
-                                    <td>12021211-118.469009</td>
+                                    <tr>
+                                        <th scope="row"></th>
+                                        <td><img class="gold-stuff" src="./images/phone.png"></td>
+                                        <td class="gold-stuff">Phone</td>
+                                        <td>+440 875369208</td>
                                     </tr>
-                    
+                                    <tr>
+                                        <th scope="row"></th>
+                                        <td><img class="gold-stuff" src="./images/paper-plane.png"></td>
+                                        <td class="gold-stuff">Email</td>
+                                        <td>support@nortsea.com</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row"></th>
+                                        <td><img class="gold-stuff" src="./images/GPS.png"></td>
+                                        <td class="gold-stuff">GPS</td>
+                                        <td>12021211-118.469009</td>
+                                    </tr>
+
                                 </tbody>
-                              </table>
-                  
-                      </div>
+                            </table>
+
+                        </div>
                     </div>
                     <div class="col-md">
-                      <p class="mb-5"></p>
-                        <img class="dark-sea-pic mt-5" src="./images/nortsea.png" alt="mail to">
+                        <p class="mb-5 mt-5"></p>
+                        <img class="dark-sea-pic mt-5 ml-5 mt-5" src="./images/nortsea.png" alt="mail to">
+                        <!-- <ul class="dark-sea-pic list-unstyled">
+                            <li><img class="dark-sea-pic mt-5" src="./images/nortsea.svg" alt="no sea"></li>
+                            <li><img class="dark-sea-pic mt-5" src="./images/hotel-white.svg" alt="no hotel"></li>
+                        </ul> -->
                     </div>
-                    </div>
-                    <div class="row">
-                      <div class="btm-copy col text-light py-5">
+                </div>
+                <div class="row">
+                    <div class="btm-copy col text-light py-5">
                         <ul class="li-block-disp mr-5">
-                          <li>Copyright 2015 NORTSEA</li>
-                          <li class="border-left pl-5 border-right">About NORTSEA</li>
-                          <li class="pl-5">Contact Support</li>
-                          <li class="justify-right">Designed by Faith34</li>
-                  
+                            <li>Copyright 2015 NORTSEA</li>
+                            <li class="border-left pl-5 border-right">About NORTSEA</li>
+                            <li class="pl-5">Contact Support</li>
+                            <li class="justify-right">Designed by Faith34</li>
+
                         </ul>
-                      </div>
                     </div>
-                  </footer>
-                  </section>
-                  
+                </div>
+            </footer>
+        </section>
+
 </body>
+
 </html>
