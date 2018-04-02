@@ -16,9 +16,9 @@ body {
 /* .card-text{
     text-align: center;
 } */
-.btm-copy{
-    text-align: end;
-}
-.nort-about p, .nort-about a{
-    text-align: center;
-}
+    .btm-copy{
+        text-align: end;
+    }
+    .nort-about p, .nort-about a{
+        text-align: center;
+    }
