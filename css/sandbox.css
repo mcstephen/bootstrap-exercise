@@ -1,0 +1,31 @@
+/* .text-white{
+    color: white;
+}
+span{
+    display: inline-block;
+}
+.row.no-gutters {
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+*{
+    margin-right: 0;
+    margin-left: 0;
+}
+.test-inline{
+    display: inline-block;
+} */
+.test-block li{
+    display: inline-block;
+}
+.social-icons li{
+    display: inline-block;
+    align-items: center;
+}
+.social-icons{
+    width: 22%;
+    border: 2px;
+    border-style: groove;
+    padding: 6px 0px 11px 15px;
+}

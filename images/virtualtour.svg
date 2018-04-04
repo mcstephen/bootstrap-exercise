@@ -1,0 +1,29 @@
+<svg 
+ xmlns="http://www.w3.org/2000/svg"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ width="94px" height="43px">
+<defs>
+<filter filterUnits="userSpaceOnUse" id="Filter_0" x="0px" y="0px" width="94px" height="43px"  >
+    <feOffset in="SourceAlpha" dx="0" dy="1" />
+    <feGaussianBlur result="blurOut" stdDeviation="1" />
+    <feFlood flood-color="rgb(255, 255, 255)" result="floodOut" />
+    <feComposite operator="atop" in="floodOut" in2="blurOut" />
+    <feComponentTransfer><feFuncA type="linear" slope="1"/></feComponentTransfer>
+    <feMerge>
+    <feMergeNode/>
+    <feMergeNode in="SourceGraphic"/>
+  </feMerge>
+</filter>
+<filter id="Filter_1">
+    <feFlood flood-color="rgb(141, 141, 141)" flood-opacity="1" result="floodOut" />
+    <feComposite operator="atop" in="floodOut" in2="SourceGraphic" result="compOut" />
+    <feBlend mode="normal" in="compOut" in2="SourceGraphic" />
+</filter>
+
+</defs>
+<g filter="url(#Filter_0)">
+<g filter="url(#Filter_1)">
+<path fill-rule="evenodd"  fill="rgb(0, 0, 0)"
+ d="M89.517,39.368 C89.338,39.322 71.149,34.897 46.411,34.897 C21.639,34.897 3.668,39.319 3.489,39.367 L0.989,39.991 L0.989,0.010 L3.567,0.754 C3.719,0.801 19.086,5.205 46.410,5.205 C73.739,5.205 89.287,0.798 89.439,0.753 L92.011,0.010 L92.013,39.984 L89.517,39.368 ZM87.988,34.896 L87.986,34.896 L87.986,5.265 C82.456,6.540 68.211,9.228 46.407,9.228 C24.645,9.228 10.512,6.548 5.010,5.271 L5.010,34.892 C8.208,34.217 14.312,33.072 22.491,32.174 L25.522,27.376 L22.850,27.376 L28.669,17.387 L34.484,27.377 L31.575,27.377 L34.004,31.221 C35.539,31.136 37.121,31.061 38.740,31.005 L42.088,25.708 L38.580,25.708 L46.214,12.595 L53.849,25.708 L50.029,25.708 L53.364,30.983 C55.057,31.034 56.706,31.107 58.313,31.192 L60.724,27.378 L58.050,27.378 L63.870,17.388 L69.689,27.378 L66.778,27.378 L69.769,32.109 C78.313,33.018 84.691,34.207 87.988,34.898 L87.988,34.896 ZM76.533,11.348 C78.756,11.348 80.557,13.151 80.557,15.375 C80.557,17.599 78.756,19.403 76.533,19.403 C74.311,19.403 72.509,17.599 72.509,15.375 C72.509,13.151 74.311,11.348 76.533,11.348 Z"/>
+</g></g>
+</svg>
